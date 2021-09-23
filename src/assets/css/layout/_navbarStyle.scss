@@ -1,0 +1,104 @@
+.custom-logo-home,
+.custom-logo,
+.custom-logo-brown {
+  width: 150px;
+  height: 35px;
+  display: block;
+  text-indent: 101%;;
+  mask-image: url('~@/assets/imgs/logos/logoIcon.svg');
+  white-space: nowrap;
+
+  &:hover {
+    transition-duration: .3s;
+  };
+}
+
+.custom-logo-home {
+  background-color: $white;
+
+  &:hover {
+    background: rgba($secondary, .7);
+  };
+}
+
+.custom-logo {
+  background-color: rgba($secondary, .8);
+
+  &:hover {
+    background: $secondary;
+  }
+}
+
+.custom-logo-brown {
+  background: $brown-500;
+
+  &:hover, &:focus {
+    background: $warning;
+  }
+}
+
+.custom-logo-login {
+  width: 210px;
+  height: 50px;
+  text-indent: 110%;;
+  background: rgba($secondary, .8);;
+  mask-image: url('~@/assets/imgs/logos/logoIcon.svg');
+  white-space: nowrap;
+
+  &:hover {
+    background: $secondary;
+    transition-duration: .3s;
+  };
+}
+
+.navbar {
+  z-index: 4;
+}
+
+.navbar__text {
+  font-size: 20px
+}
+
+.num-icon {
+  @include custom-position-setIn(-9px, 12px, 0, 0);
+  width: 27px;
+  height: 27px;
+  border-radius: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+  color: $white;
+  background: $danger;
+}
+
+@media(max-width: 768px) {
+  .custom-logo-home,
+  .custom-logo-brown,
+  .custom-logo {
+    width: 105px;
+    height: 25px;
+  }
+  .custom-logo-login {
+    width: 120px;
+    height: 30px;
+    text-indent: 120%;
+  }
+  .navbar-dark .navbar-toggler {
+    padding: 1px 7px;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    transform: scale(.9);
+  }
+  .navbar__text {
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 414px) {
+  .navbar-dark .navbar-toggler {
+    padding: 1px 3px;
+  }
+  .navbar-dark .navbar-toggler-icon {
+    transform: scale(.7);
+  }
+}

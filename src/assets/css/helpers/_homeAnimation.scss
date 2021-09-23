@@ -1,0 +1,54 @@
+.custom-fade-animetion {
+  @include animetion-init(fadeAni, 10s, infinite);
+}
+.custom-fade-animetion-slow {
+  @include animetion-init(fadeAni, 14s, infinite);
+}
+
+@keyframes fadeAni {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0%);
+	}
+
+  25% {
+    transform: translateY(-6%);
+  }
+
+  40% {
+    transform: translateY(-3%);
+  }
+
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.custom-animetion-slow {
+  @include animetion-init(bounceSlow, 2s, infinite);
+}
+
+@keyframes bounceSlow {
+	0% {
+		transform: translateY(0%);
+	}
+
+  50% {
+    transform: translateY(10%);
+  }
+
+	100% {
+		transform: translateY(0%);
+	}
+}

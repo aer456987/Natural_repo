@@ -1,0 +1,38 @@
+.swal2-container {
+  z-index: 2000 !important;
+}
+
+.swal2-popup {
+  width: auto !important;
+  padding: 20px 30px 40px !important;
+}
+
+.swal2-popup.swal2-toast.swal2-show {
+  padding-bottom: 20px !important;
+}
+
+.swal2-popup .swal2-toast .swal2-title {
+  margin: 10px !important;
+  font-weight: 500;
+  color: $primary !important;
+}
+.swal2-title {
+  color: $primary !important;
+}
+
+.swal2-html-container {
+  max-width: none;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring,
+.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring {
+  border: solid 3px rgba($custom-green, .3) !important;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+  height: 3.5px !important;
+  background-color: $custom-green !important;
+}
+.swal2-popup.swal2-toast .swal2-success {
+  border: solid 2.5px $custom-green !important;
+}
