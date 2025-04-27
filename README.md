@@ -132,6 +132,12 @@ Demo： [https://aer456987.github.io/natural/#/](https://aer456987.github.io/nat
 
 ## **後台頁面**
 
+### **登入頁**
+
+![登入頁](https://i.imgur.com/WhuJ5kr.jpeg)
+
+<br>
+
 ### **商品管理頁**
 
 ![商品管理頁](https://i.imgur.com/e4B7K5z.jpeg)
