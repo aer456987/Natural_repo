@@ -86,25 +86,25 @@ Demo： [https://aer456987.github.io/natural/#/](https://aer456987.github.io/nat
 ## **前台頁面**
 <br>
 
-**首頁**
+### **首頁**
 
 ![首頁](https://i.imgur.com/0BTcRHk.jpeg)
 
 <br>
 
-**商品頁**
+### **商品頁**
 
 ![商品頁](https://i.imgur.com/IfTxgSY.jpeg)
 
 <br>
 
-**商品詳細頁**
+### **商品詳細頁**
 
 ![產品詳細頁](https://i.imgur.com/oGEzQu8.jpeg)
 
 <br>
 
-**收藏清單**
+### **收藏清單**
 
 ![收藏清單](https://i.imgur.com/IC7vA5w.jpeg)
 
@@ -112,7 +112,7 @@ Demo： [https://aer456987.github.io/natural/#/](https://aer456987.github.io/nat
 
 <br>
 
-**訂單填寫**
+### **訂單填寫**
 
 ![訂單填寫](https://i.imgur.com/aPTUmtV.jpeg)
 
@@ -121,18 +121,18 @@ Demo： [https://aer456987.github.io/natural/#/](https://aer456987.github.io/nat
 
 <br>
 
-**付款頁面**
+### **付款頁面**
 
 ![付款頁面](https://i.imgur.com/4LkFEvB.jpeg)
 
 1. 選擇信用卡、ATM 匯款可直接前往付款頁面進行線上付款。
 2. 選擇貨到付款不需要先付款。
 
-<br>
+<br><br>
 
 ## **後台頁面**
 
-**商品管理頁**
+### **商品管理頁**
 
 ![商品管理頁](https://i.imgur.com/e4B7K5z.jpeg)
 ![商品搜尋功能](https://i.imgur.com/5IR1RB7.jpeg)
@@ -145,7 +145,7 @@ Demo： [https://aer456987.github.io/natural/#/](https://aer456987.github.io/nat
 
 <br>
 
-**訂單管理頁**
+### **訂單管理頁**
 
 ![訂單管理頁](https://i.imgur.com/7U7im4W.jpeg)
 
@@ -165,9 +165,9 @@ Demo： [https://aer456987.github.io/natural/#/](https://aer456987.github.io/nat
 
 <br>
 
-**優惠券管理頁**
-![優惠券管理頁](https://i.imgur.com/r1A7BOK.jpeg)
+### **優惠券管理頁**
 
+![優惠券管理頁](https://i.imgur.com/r1A7BOK.jpeg)
 ![優惠券編輯視窗](https://i.imgur.com/4QsdmcR.jpeg)
 
 <br><hr>
